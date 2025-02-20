@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Climbing Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="P01_index.html">
+        <img src="https://www.shareicon.net/data/512x512/2016/09/16/829676_snow_512x512.png" width="30" height="30" alt="Company Logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./P01_index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./P01_aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./P01_shoes_1.html">Climbing Shoes</a></li>
+              <li><a class="dropdown-item" href="./P01_equipment.html">Climbing Equipment</a></li>
+              <li><a class="dropdown-item" href="./P01_clothing.html">Clothing</a></li>
+            </ul>
+          </li>
+          <li>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </li>
+        </ul>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle svg-nav" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg>
+        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#LogInModal" href="#">Log In</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill svg-nav" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg>
+        <a class="nav-link" href="./P01_cart.html">Cart <img src="" alt=""></a>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <h2 class="text-center my-4">Clothing</h2>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+      
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://mellowclimbing.com/cdn/shop/products/mellow_GRIP-collection_STICKY-back_1024x1024@2x.png?v=1682873068" class="card-img-top" alt="Sticky Hands Tee">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Mellow Sticky Hands Tee</h5>
+            <p class="card-text">
+                7.5OZ GARMENT DYED DROP SHOULDER T-SHIRT 
+                100% USA COTTON  
+                SCREEN PRINTED FRONT AND BACK</p>
+            <p>$41</p>
+            <select class="form-select" name="size" id="size">
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+            </select>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://mellowclimbing.com/cdn/shop/files/mellow-og-clay-hat-front_1024x1024@2x.png?v=1724128487" class="card-img-top" alt="Mellow Hat">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Mellow OG Logo 5-Panel Snapback - RED ROCK</h5>
+            <p class="card-text">T6OZ 100% COTTON TWILL, LIGHTWEIGHT FABRIC MANUFACTURED IN JAPAN, HATS CUT AND SEWN IN USA
+                EMBROIDERED FRONT.</p>
+            <p>$41</p>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://mellowclimbing.com/cdn/shop/files/mellow-TNF-Shoe-side_1024x1024@2x.png?v=1724129520" class="card-img-top" alt="Clyffe Shoes">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">The TNF™ x Mellow Clyffe</h5>
+            <p class="card-text">The Clyffe is the result of a collaboration between Mellow and The North Face. Designed with some of the world’s best boulderers, it pairs the everyday comfort of a sneaker with off-trail performance features.
+            <p>$132</p>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://www.antigrav.wtf/cdn/shop/files/IMG_75EEEEB9194F-1_f695552d-5378-46da-94a8-f92d655c9054.jpg?v=1716837793&width=1346" class="card-img-top" alt="Neopolitan Beanie">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Anti-Grav Neopolitan Beanie</h5>
+            <p class="card-text">Beyond comfy 100% cotton beanie. Custom ANTIGRAV tag. Classic fit, one size fits all. Made in the USA.</p>
+            <p>$41</p>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://www.antigrav.wtf/cdn/shop/files/Subject_6.png?v=1739045060&width=1346" class="card-img-top" alt="What The Cuff Pants">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Anti-Grav What The Cuff Pants</h5>
+            <p class="card-text">Designed from the ground up by Keenan Takahashi. A timeless climbing pant that is everything you want and nothing you don't.</p>
+            <p>$111</p>
+            <select class="form-select" name="size" id="size">
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+            </select>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://rungne.com/cdn/shop/files/Wide_Leg_Oyster_Mushoom_NEW.jpg?v=1732708612&width=800" class="card-img-top" alt="Harness Pants">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Rungne Harness Pants Wide Leg</h5>
+            <p class="card-text">Already loving the Harness Pants? Meet the Harness Pants Wide Leg: same top-tier quality, now with a bolder, wider fit. Could you ask for more? Rhetorical question—the answer is obviously no.</p>
+            <p>$149</p>
+            <select class="form-select" name="size" id="size">
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+            </select>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://rungne.com/cdn/shop/files/HighballerPants_Back_MoonMist_FlatLay.jpg?v=1738680925&width=800" alt="Highballer Pants">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Rungne Highballer Pants</h5>
+            <p class="card-text">Highballer Pants: your go-to for bouldering or kicking back. Made from organic cotton and bi-stretch fabric for maximum mobility. Robust enough for climbs, stylish enough for busy streets. The perfect ally to push limits.</p>
+            <p>$139</p>
+            <select class="form-select" name="size" id="size">
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+            </select>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card h-100 d-flex flex-column">
+          <img src="https://mellowclimbing.com/cdn/shop/files/mellow-OG-hood-bluemagic-front_1024x1024@2x.png?v=1727886210" class="card-img-top" alt="Mellow Hoodie">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">OG METALLIC THREAD HOOD - FADED BLUE</h5>
+            <p class="card-text">12.5 OZ HEAVY-WEIGHT HOODED SWEATSHIRT 
+                EMBROIDERED FRONT. 75% COTTON / 25% POLYESTER</p>
+            <p>$77</p>
+            <select class="form-select" name="size" id="size">
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+            </select>
+            <button class="btn btn-primary mt-auto">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="LogInModal" tabindex="-1" aria-labelledby="LogInModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header" id="modal-header-div">
+          <h1 class="modal-title fs-5" id="LogInModalLabel">Log In</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="submit">
+            <h4 class="fs-4 fw-light modal-title" for="email">Email</h4>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+              <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg></span>
+            </div>
+            <h4 class="fs-4 fw-light modal-title" for="password">Password</h4>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+              <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2M2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+              </svg></span>
+            </div>
+            <p><input type="checkbox" name="" id="modal-checkbox">Remember me</p>
+            <div class="log-in-modal">
+              <button type="submit" class="btn btn-primary button-modal">Log In</button>
+            </div>
+          </form> 
+        </div>
+        <div class="modal-footer ">
+          <p>Don't have an account? <a data-bs-toggle="modal" data-bs-target="#SignInModal" href="#">Sign up here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade" id="SignInModal" tabindex="-1" aria-labelledby="SignInModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body container">
+<form action="submit">
+  <div class="row g-3">
+    <div class="col-md-6">
+      <input class="form-control" type="text" placeholder="First Name" required>
+    </div>
+    <div class="col-md-6">
+      <input class="form-control" type="text" placeholder="Last Name" required>
+    </div>
+    <div class="col-12">
+      <input class="form-control" type="email" placeholder="Your Email" required>
+    </div>
+    <div class="col-12">
+      <input class="form-control" type="password" name="signup-password" id="signup-password" placeholder="Password" required>
+    </div>
+    <div class="col-12">
+      <input class="form-control" type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required>
+    </div>
+  </div>
+</div>
+</form>
+<div class="modal-footer">
+  <button type="button" class="btn btn-success">Sign Up</button>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+    

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.svg-nav {
+    margin: 0em 0.5em 0em 0.5em;
+}
+
+h3 {
+    margin: 1em 0em 1.5em 0em;
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+#modal-checkbox {
+    margin-right: 0.5em;
+}
+
+#modal-header-div {
+    display: flex;
+    align-items: center;
+}
+
+.modal-title {
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+.modal-input {
+    margin-bottom: 0.5em;
+}
+
+.log-in-modal {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 3em;
+}
+
+.jost-font {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-size: 5em;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.bg-img {
+    background-image: url(https://ychef.files.bbci.co.uk/1280x720/p0jqv2ln.jpg);
+    border-radius: 1em;
+}
+
+#size {
+    width: 4em;
+    margin-bottom: 1em;
+}
+
+#qty {
+    margin-left: 1em;
+    width: 4em;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.order-btn {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
